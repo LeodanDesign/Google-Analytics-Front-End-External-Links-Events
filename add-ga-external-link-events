@@ -1,0 +1,11 @@
+<?php
+/*
+Plugin Name: Add GA External Link Events
+Plugin URI: https://leodandesign.co.uk
+Description: Fires a Google Analytics event tracking trigger when a html link is clicked to an external resource
+Author: Ben Matthews / Leodan:Design
+Author URI: https://benjaminmatthews.me.uk
+Version: 0.0
+License: GPLv2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
