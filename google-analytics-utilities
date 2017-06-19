@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 function load_ga_events_js() {
-    wp_register_script('ga-ext-links', plugins_url('external_links.js', __FILE__), array('jquery'),'', true);
+    wp_register_script('ga-ext-links', plugins_url('assets/js/external_links.js', __FILE__), array('jquery'),'', true);
     wp_enqueue_script('ga-ext-links');
 }
 add_action('wp_enqueue_scripts', 'load_ga_events_js');
